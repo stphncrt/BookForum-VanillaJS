@@ -10,7 +10,7 @@ export const initStartPage = (userInterface) => {
 	const changePage = () => {
 		(userInterface.innerHTML = ""), router("detail");
 	};
-	const 
+
 	const contentElement = createElement("div", "startPage-content-container");
 	const navBarElement = navbarCreate();
 	const booksContainerElement = BooksContainerCreate();

@@ -1,6 +1,35 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 20px;
+}
+
+.navBar {
+  background-color: #f4f2e9;
+}
+.navBar img {
+  margin: 1rem 6rem;
+}
+
+.challenge-img {
+  width: 100%;
+  height: 25rem;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 6rem;
+  gap: 3rem;
+}
+
+.first-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20rem;
+  color: #420000;
+  font-weight: 400;
 }
 
 .book-card-wrapper {
@@ -14,7 +43,7 @@
   display: flex;
   flex-direction: column;
   transition: 0.5s;
-  background-color: red;
+  background-color: #f4f2e9;
   opacity: 0.8;
 }
 .book-card-wrapper:hover {
@@ -33,7 +62,6 @@
   padding: 0.2rem;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  /* number of lines to show */
   -webkit-box-orient: vertical;
 }
 .book-card-wrapper h6 {
@@ -49,14 +77,52 @@
   margin: 1rem 6rem;
 }
 
-.navBar {
-  background-color: #f4f2e9;
-}
-.navBar img {
-  margin: 1rem 6rem;
+.detail-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/Challenge.png);
+  background-size: cover;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
 }
 
-.challenge-img {
-  width: 100%;
-  height: 25rem;
+.cardWrapper {
+  margin: 1rem;
+  padding: 1rem;
+  width: 65%;
+  height: 80%;
+  border: 1px solid grey;
+  box-shadow: 15px 5px 50px #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+.cardImage {
+  width: 15rem;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #420000;
+}
+
+.infoWrapper p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 15;
+  -webkit-box-orient: vertical;
+}
+
+.smallCase {
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */

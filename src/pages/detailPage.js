@@ -1,8 +1,9 @@
 "use strict";
 import createElement from "../helper/createElement.js";
-
+import { detailedBookCardCreate } from "../views/detailedBook.js";
 export const initDetailPage = (userInterface) => {
 	const detailContentElement = createElement("div", "detail-content");
-	detailContentElement.innerText = "detail page";
+	const detailBookElement = detailedBookCardCreate();
+	detailContentElement.appendChild(detailBookElement);
 	userInterface.appendChild(detailContentElement);
 };
