@@ -2,6 +2,7 @@ import createElement from "../helper/createElement.js";
 
 export const BookElementCreate = (book) => {
 	const bookElement = createElement("div", "book-card-wrapper");
+	bookElement.setAttribute("id", book.id);
 	const titleElement = createElement("h5");
 	titleElement.innerText = book?.volumeInfo?.title;
 	bookElement.appendChild(titleElement);

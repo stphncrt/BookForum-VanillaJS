@@ -9,7 +9,8 @@ const book = {
 	isbn: 636736737,
 	image: "https://s.gr-assets.com/assets/home/header_logo-8d96d7078a3d63f9f31d92282fd67cf4.png",
 };
-export const detailedBookCardCreate = () => {
+export const detailedBookCardCreate = (bookId) => {
+	console.log(bookId);
 	const detailBookElement = createElement("div", "cardWrapper");
 	const firstWrapperElement = createElement("div", "infoWrapper");
 	const imageElement = createElement("img", "cardImage");
