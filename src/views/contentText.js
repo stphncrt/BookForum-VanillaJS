@@ -2,8 +2,8 @@ import createElement from "../helper/createElement.js";
 
 export const createContentText = () => {
 	const contentSectionElement = createElement("div", "content-section");
-	const firstContentElement = createElement("div", "first-content");
-	const secondContentElement = createElement("div", "second-content");
+	const firstContentElement = createElement("div", "content-container");
+	const secondContentElement = createElement("div", "content-container");
 	const firstTitleElement = createElement("h4");
 	firstTitleElement.innerText = "Deciding what to read next ?";
 	const secondTitleElement = createElement("h4");
@@ -17,7 +17,7 @@ export const createContentText = () => {
 	contentSectionElement.appendChild(firstContentElement);
 	contentSectionElement.appendChild(secondContentElement);
 	firstContentElement.appendChild(firstTitleElement);
-	firstTitleElement.appendChild(firstParagraphElement);
+	firstContentElement.appendChild(firstParagraphElement);
 	secondContentElement.appendChild(secondTitleElement);
 	secondContentElement.appendChild(secondParagraphElement);
 	return contentSectionElement;

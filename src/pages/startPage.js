@@ -13,8 +13,7 @@ export const initStartPage = (userInterface) => {
 
 	const contentElement = createElement("div", "startPage-content-container");
 	const navBarElement = navbarCreate();
-	const booksContainerElement = BooksContainerCreate();
-	booksContainerElement.addEventListener("click", changePage);
+	const booksContainerElement = BooksContainerCreate(changePage);
 	const challengeContainerElement = challengeImgCreate();
 	const contentTextElement = createContentText();
 	contentElement.appendChild(navBarElement);
