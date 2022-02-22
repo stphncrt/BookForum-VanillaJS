@@ -161,16 +161,19 @@
   flex-direction: column;
   gap: 1rem;
   color: #420000;
+  margin: 0.5rem;
 }
-
+.infoWrapper h3 {
+  font-size: 20px;
+}
+.infoWrapper .smallCase {
+  font-size: 16px;
+}
 .infoWrapper p, .infoWrapper .content-container h4, .content-container .infoWrapper h4 {
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 24px;
   display: -webkit-box;
   -webkit-line-clamp: 15;
   -webkit-box-orient: vertical;
-}
-
-.smallCase {
-  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
