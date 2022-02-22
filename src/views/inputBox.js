@@ -5,6 +5,7 @@ import { BooksContainerCreate } from "./booksContainer.js";
 export const createInputBox = () => {
 	const searchBarElement = createElement("div", "search-bar");
 	const inputElement = createElement("input", "input");
+	inputElement.setAttribute("placeholder", "Find something you are passionate for..");
 	searchBarElement.appendChild(inputElement);
 	const buttonElement = createElement("button", "button");
 	buttonElement.textContent = "Search";

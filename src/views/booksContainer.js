@@ -6,7 +6,6 @@ import { fetchData } from "../helper/fetchData.js";
 import { router } from "../../Router.js";
 
 export const BooksContainerCreate = (searchParam) => {
-	console.log(searchParam);
 	const url = `https://www.googleapis.com/books/v1/volumes?q=${
 		!searchParam ? "brain" : searchParam
 	}:keyes&key=${API_KEY}&maxResult=40`;

@@ -23,9 +23,8 @@
     display: flex;
     flex-direction: row;
     margin: 1rem 10rem;
-    gap: 3rem;
+    gap: 10rem;
     height: 10rem;
-    align-items: center;
     justify-content: center;
 }
 
@@ -34,31 +33,37 @@
     flex-direction: column;
     gap: 1rem;
     width: 25rem;
-    color: #420000;
-    font-weight: 400;
-    font-size: 20px;
+    p {
+        color: #420000;
+        font-size: 25px;
+    }
+    h4 {
+        @extend p;
+        font-weight: 800;
+    }
 }
 
 //=============search bar===========================
 .search-bar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    align-content: center;
+    justify-content: center;
     gap: 0.3rem;
     margin: -5rem auto 5rem;
     input {
+        padding: 0.3rem;
         border-radius: 5px;
         border: 0.2px solid grey;
-        width: 15rem;
+        width: 20rem;
         :focus {
             outline: none;
         }
     }
     button {
         border-radius: 5px;
-        border-color: #fff7e9;
-        background-color: #f4f2e9;
+        border-color: #c3b9a3;
+        background-color: #e4e0ce;
         padding: 0.2rem 0.5rem;
         &:hover {
             background-color: #8f8e86;
@@ -119,6 +124,13 @@
 }
 
 //================Detail Page============================
+.outer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
 .detail-content {
     display: flex;
     flex-direction: column;
