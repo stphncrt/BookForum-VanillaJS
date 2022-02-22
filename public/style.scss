@@ -39,7 +39,40 @@
     font-size: 20px;
 }
 
+//=============search bar===========================
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 0.3rem;
+    margin: -5rem auto 5rem;
+    input {
+        border-radius: 5px;
+        border: 0.2px solid grey;
+        width: 15rem;
+        :focus {
+            outline: none;
+        }
+    }
+    button {
+        border-radius: 5px;
+        border-color: #fff7e9;
+        background-color: #f4f2e9;
+        padding: 0.2rem 0.5rem;
+        &:hover {
+            background-color: #8f8e86;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}
+
 //============Book display section=================
+.book-page {
+    background-image: url(./images/Challenge.png);
+}
+
 .book-card-wrapper {
     margin: 10px;
     width: 18%;

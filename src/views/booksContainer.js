@@ -4,18 +4,15 @@ import { BookElementCreate } from "./bookCreate.js";
 import { API_KEY } from "../../constant.js";
 import { fetchData } from "../helper/fetchData.js";
 import { router } from "../../Router.js";
-let searchText = "";
-const url = `https://www.googleapis.com/books/v1/volumes?q=${
-	!searchText ? "brain" : searchText
-}:keyes&key=${API_KEY}&maxResult=40`;
 
-// export let bookId = "";
-// const onBookSelected = (e) => {
-// 	bookId = e.currentTarget.id;
-// };
+export const BooksContainerCreate = (searchParam) => {
+	console.log(searchParam);
+	const url = `https://www.googleapis.com/books/v1/volumes?q=${
+		!searchParam ? "brain" : searchParam
+	}:keyes&key=${API_KEY}&maxResult=40`;
 
-export const BooksContainerCreate = () => {
 	const containerElement = createElement("div", "books-container");
+	containerElement.innerHTML = "";
 	fetchData(url)
 		.then((data) => data.items)
 		.then((books) => {
