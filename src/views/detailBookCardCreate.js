@@ -1,3 +1,4 @@
+import { router } from "../../Router.js";
 import createElement from "../helper/createElement.js";
 
 export const DetailBookCardCreate = (book) => {
@@ -7,9 +8,15 @@ export const DetailBookCardCreate = (book) => {
 	imageElement.src = book?.volumeInfo?.imageLinks?.small;
 	imageElement.alt = book?.volumeInfo?.title;
 	const authorElement = createElement("h3", "author");
+	const newSearcherElement = createElement("h3", "new-search");
+	newSearcherElement.innerText = "New Search";
+	newSearcherElement.addEventListener("click", () => {
+		router("start");
+	});
 	authorElement.innerText = book?.volumeInfo?.authors[0];
 	firstWrapperElement.appendChild(imageElement);
 	firstWrapperElement.appendChild(authorElement);
+	firstWrapperElement.appendChild(newSearcherElement);
 	detailBookElement.appendChild(firstWrapperElement);
 	const secondWrapperElement = createElement("div", "infoWrapper");
 	const bookTitleElement = createElement("h3");

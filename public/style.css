@@ -152,6 +152,11 @@
           backdrop-filter: blur(15px);
 }
 
+.new-search:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
 .cardImage {
   width: 15rem;
 }
