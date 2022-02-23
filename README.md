@@ -9,7 +9,7 @@
 - Contributing 
 - License
 ## Demo
-<img src='https://github.com/stphncrt/BookForum-VanillaJS/blob/main/public/images/BookApp1.gif' />
+<img src='https://github.com/stphncrt/BookForum-VanillaJS/blob/main/public/images/BookApp.gif' />
 
 ## Description
 This is a book forum application created with **Vanilla JS**. Books data is fetched from [Google Books APIs](https://developers.google.com/books/docs/v1/using).
