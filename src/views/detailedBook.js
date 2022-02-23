@@ -1,5 +1,5 @@
 import createElement from "../helper/createElement.js";
-import { API_KEY } from "../../constant.js";
+import { API_KEY } from "../constant.js";
 import { fetchData } from "../helper/fetchData.js";
 import { DetailBookCardCreate } from "./detailBookCardCreate.js";
 export const detailedBookContainer = (bookId) => {
