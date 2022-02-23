@@ -1,5 +1,5 @@
 import createElement from "../helper/createElement.js";
-import { router } from "../../Router.js";
+import { router } from "../Router.js";
 
 export const createInputBox = () => {
 	const handleSearch = () => {

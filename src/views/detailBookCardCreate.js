@@ -1,4 +1,4 @@
-import { router } from "../../Router.js";
+import { router } from "../Router.js";
 import createElement from "../helper/createElement.js";
 
 export const DetailBookCardCreate = (book) => {
