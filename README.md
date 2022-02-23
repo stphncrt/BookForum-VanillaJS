@@ -3,6 +3,7 @@
 ## Table of Content
 - Demo
 - Description
+- Built with
 - Setup
 - Features
 - License
@@ -12,6 +13,14 @@
 ## Description
 This is a book forum application created with **Vanilla JS**. Books data is fetched from [Google Books APIs](https://developers.google.com/books/docs/v1/using).
 Application provides main features you'd expect from a book forum , such as searching a book, demostrating details of the book that is being looked for, other books of the author.
+
+## Built with
+<p>
+  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img alt="CSS" src="https://img.shields.io/badge/-CSS-0f61fa?style=flat-square&logo=CSS3&logoColor=white" />
+  <img alt="JS" src="https://img.shields.io/badge/-JavaScript-ffba08?style=flat-square&logo=JavaScript&logoColor=black" />
+ </p>
+
 
 ## Setup
 - Create a folder 
