@@ -6,6 +6,7 @@
 - Built with
 - Setup
 - Features
+- Contributing 
 - License
 ## Demo
 <img src='https://github.com/stphncrt/BookForum-VanillaJS/blob/main/public/images/BookApp1.gif' />
@@ -37,6 +38,17 @@ Application provides main features you'd expect from a book forum , such as sear
 - Display books in DOM with image and hover effect
 - Click on a book and see the details
 - Searching other books of the author.(prospective)
+
+## Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. 
+
+  1.  Fork the Project
+  2.  Create your Feature Branch (git checkout -b feature/AmazingFeature)
+  3.  Commit your Changes (git commit -m 'Add some AmazingFeature')
+  4.  Push to the Branch (git push origin feature/AmazingFeature)
+  5.  Open a Pull Request
 
 
 ## License
