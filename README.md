@@ -20,6 +20,7 @@ Application provides main features you'd expect from a book forum , such as sear
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img alt="CSS" src="https://img.shields.io/badge/-CSS-0f61fa?style=flat-square&logo=CSS3&logoColor=white" />
   <img alt="JS" src="https://img.shields.io/badge/-JavaScript-ffba08?style=flat-square&logo=JavaScript&logoColor=black" />
+  <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
  </p>
 
 
